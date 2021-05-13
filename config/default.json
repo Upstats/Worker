@@ -1,0 +1,11 @@
+{
+  "db": "",
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 465,
+  "smtp_user": "example@gmail.com",
+  "smtp_pass": "---password---",
+  "tg_session": "",
+  "api_id": 123456,
+  "api_hash": "",
+  "mail_service_enabled": false
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Upstats-Checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "config": "^3.3.6",
+    "mongoose": "^5.12.5",
+    "nodemailer": "^6.5.0",
+    "telegram": "^1.5.11"
+  },
+  "devDependencies": {
+    "@types/config": "^0.0.38",
+    "@types/nodemailer": "^6.4.1",
+    "typescript": "^4.2.4"
+  }
+}
