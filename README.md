@@ -44,6 +44,7 @@ tg_session - Telegram Session String
 api_id - Telegram App API ID, get it from my.telegram.org
 api_hash - Telegram App API Hash, get it from my.telegram.org
 ```
+6. Deploy.
 
 ## Contributing
 
