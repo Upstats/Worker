@@ -29,7 +29,7 @@ git clone https://github.com/UpStats/Worker.git
 ```
 db - Get DB URL from MongoDB.com
 ```
-4. Set it to true you want to Enable Mail Subscription. Replace with your SMTP Details.
+4. If you want to enable Email Subscription set ```mail_service_enabled``` to true.Replace with your SMTP Details for the Functioning.
 ```
 "mail_service_enabled": false,
 "smtp_host": "smtp.gmail.com",
