@@ -20,31 +20,7 @@ Since your needs maybe different.So I'll be adding more in the near future. You 
 ## Getting Started
 
 1. Deploy [UpStats](https://gitHub.com/upstats/upstats#getting-started)
-
-2. Clone the Repo
-```
-git clone https://github.com/UpStats/Worker.git
-```
-3. Open /config/default.json file and replace with your Details
-```
-db - Get DB URL from MongoDB.com
-```
-4. If you want to enable Email Subscription set ```mail_service_enabled``` to true.Replace with your SMTP Details for the Functioning.
-```
-"mail_service_enabled": false,
-"smtp_host": "smtp.gmail.com",
-"smtp_port": 465,
-"smtp_user": "example@gmail.com",
-"smtp_pass": "---password---",
-```
-
-5. If you want to enable Telegram Bots Support, Set your Own Credentials.
-```
-tg_session - Telegram Session String
-api_id - Telegram App API ID, get it from my.telegram.org
-api_hash - Telegram App API Hash, get it from my.telegram.org
-```
-6. Follow this [WIKI](https://github.com/Upstats/Worker/wiki/Deploy-with-Docker) to Deploy with Docker.
+2. Follow this [WIKI](https://github.com/Upstats/Worker/wiki/Deploy-with-Docker) to Deploy.
 
 ## Contributing
 
