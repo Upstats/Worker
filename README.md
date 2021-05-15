@@ -20,7 +20,7 @@ Since your needs maybe different.So I'll be adding more in the near future. You 
 ## Getting Started
 
 1. Deploy [UpStats](https://gitHub.com/upstats/upstats#getting-started)
-2. Follow this [WIKI](https://github.com/Upstats/Worker/wiki/Deploy-with-Docker) to Deploy.
+2. Follow [Wiki](https://github.com/Upstats/Worker/wiki/Deploy-with-Docker) to Deploy.
 
 ## Contributing
 
