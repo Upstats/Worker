@@ -31,14 +31,14 @@ async function main() {
         const result = await checkSite(system.url);
         await updateStatus(system._id, result);
         if (result === "down") {
-          getConfig() && (await mail(system.name));
+          getConfig() && (await mail(system.name as string));
         }
         console.log(`Success ${system.name}`);
       } else if (system.type === "telegram") {
         const result = await getStatus(system.url as EntityLike);
         await updateStatus(system._id, result);
         if (result === "down") {
-          getConfig() && (await mail(system.name));
+          getConfig() && (await mail(system.name as string));
         }
       }
     } catch (e) {
