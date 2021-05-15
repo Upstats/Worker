@@ -22,6 +22,14 @@ Since your needs maybe different.So I'll be adding more in the near future. You 
 1. Deploy [UpStats](https://gitHub.com/upstats/upstats#getting-started)
 2. Follow [Wiki](https://github.com/Upstats/Worker/wiki/Deploy-with-Docker) to Deploy.
 
+
+## Usage
+
+* Open /login to Login to Dashboard
+* Use Telegram Bot Username without @ to add Telegram Bots.
+* New Admins should use /register to register themselves.
+* You can delete or edit Systems by Clicking Respective Icons.
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
