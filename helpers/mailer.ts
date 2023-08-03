@@ -24,7 +24,8 @@ export async function mail(system: string) {
   let transporter = nodemailer.createTransport({
     host: process.env.smtp_host || config.get("smtp_host"),
     port: process.env.smtp_port || config.get("smtp_port"),
-    secure: true, // true for 465, false for other ports
+    // secure: (process.env.smtp_port || config.get("smtp_port")) == "465" ? true : false, // true for 465, false for other ports
+    // secure: true, // true for 465, false for other ports
     auth: {
       user: account.user,
       pass: account.pass,
